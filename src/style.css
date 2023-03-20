@@ -1,0 +1,80 @@
+ul {
+    list-style: none;
+  }
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.barra-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0cabef;
+  color: #FFFFFF;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+.barra-link {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.barra-link-active {
+  text-decoration: underline;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.banner {
+  background-image: url("https://ideascityclub.com/wp-content/uploads/2021/09/fondo-pizza-preparados-para-ti.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  position: relative; 
+  opacity: 95%;
+}
+.banner h1 {
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
+}
+
+.banner p {
+  font-size: 1.5em;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.banner hr {
+  border: 0;
+  border-top: 1px solid white;
+  width: 80%;
+  margin: 20px 0;
+}
+
+.total-pedido {
+  font-size: 24px;
+  font-weight: bold;
+}
