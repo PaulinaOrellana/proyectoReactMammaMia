@@ -13,7 +13,7 @@ const Detalle = () => {
   const pizzaDetalle = pizzas.filter((p) => p.id === id);
 
   return (
-    <Card border="light" style={{ marginTop: '1em' }}>
+    <Card border="light" style={{ marginTop: '50px' }}>
       <div className="d-flex justify-content-center align-items-center">
         <Card.Img variant="left" src={pizzaDetalle[0].img} style={{ width: '300px', height: '300px', objectFit: 'cover' }} />
         <div className="p-3">

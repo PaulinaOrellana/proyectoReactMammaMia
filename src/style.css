@@ -1,5 +1,5 @@
 ul {
-    list-style: none;
+ list-style: none;
   }
 
 .button-container{
@@ -7,13 +7,18 @@ ul {
     justify-content: space-between;
     margin-top: 10px;
 }
+
 .barra-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: #0cabef;
   color: #FFFFFF;
   padding: 10px;
-  opacity: 0.8;
+  z-index: 100;
 }
 
 .barra-link {
